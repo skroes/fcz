@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>FC Zutphen kleedkamers</title>
+
+		<link rel="stylesheet" href="table.css">
+		<script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+		<script src="http://dexels.github.io/navajofeeds-json-parser/js/dist/feed-0.0.1.js"></script>
+		<script>
+		feed.init({
+			clientId: "T8CJ7wX87p",
+
+		});
+		</script>
+	<!--	
+		<style>
+			img {
+				width: 100px;
+				height:100px;
+			}
+		</style>
+		-->
+	</head>
+	
+	<body>
+	<center>
+	<!-- Welkom op de website van:
+	<div data-article="clublogo" data-fields="gegevens.logo"></div> 
+	-->
+
+	Programma overzicht
+	<div 
+	class="list"
+	data-article="programma"
+	data-param-sorteervolgorde="datum"
+	data-param-gebruiklokaleteamgegevens="JA"
+	data-fields="datum,aanvangstijd,thuisteam,kleedkamerthuisteam,uitteam,kleedkameruitteam,scheidsrechter,status,plaats" 
+	></div> 
+	</center>
+</html>
